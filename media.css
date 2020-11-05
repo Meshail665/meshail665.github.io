@@ -1,0 +1,81 @@
+/*  S */ 
+
+@media (max-width:576px) {    /* التحكم في الشاشات   ده ف الاسمول هيشيل المارجن */
+    
+    .upper-bar .info:first-child {
+        
+        margin-bottom: 0
+    }
+    
+    .upper-bar .get-quote {
+        
+        border: 0;
+        margin-left: 5px;
+    }
+}
+
+
+
+
+@media (max-width:768px) {   /*الميديام و يقف  في كل الشاشات لحد 768 */
+    
+   
+    
+    .slider .carousel-inner h1 {
+    
+        font-size: 40px;
+        width: 100%;  /* عشان يخليها تملي المحتوي كله في النص */
+        left: auto;   /* في النص */
+        line-height: 1.5;
+        text-align: center;  /* في النص */
+        
+    }
+    
+     .contact-us p {   /* يحط مارجن لحد الاسمول  الميديام لا */
+    
+        margin-bottom: 30px;
+    }
+    
+}
+
+
+@media (max-width:992px) {
+   
+
+    .pricing-table .card.corporate {
+        position: relative;
+        top: 0;
+    } 
+    
+     .pricing-table .section-description {
+        
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    
+    .overview p {
+        
+        width: 100%;   /* ف كل الشاشات لحد 992 الويدز 100 بعد كده 80 */
+    } 
+    
+    .overview h2 {
+        
+        font-size: 30px;
+    }
+    
+   
+    .footer .helpful-links h2,
+    .footer .contact h2 {
+        
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    
+    .footer .contact ul li {
+        
+        margin-bottom: 5px;
+    }
+   
+}
+    
+
